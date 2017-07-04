@@ -1,0 +1,91 @@
+# Patchwise Road Segmentation for Aerial Images with CNN
+# Emmanouil Angelis, Spyridon Angelopoulos, Georgios Touloupas
+# Group 5: Google Maps Team
+# Department of Computer Science, ETH Zurich, Switzerland
+# Computational Intelligence Lab
+
+# Prerequisites
+Before running any of the following commands make sure that:
+1. The training.zip file is unzipped in a directory named training_original in your working directory.
+2. The test_set_images.zip is unzipped in a direcory named test_set_images in your working directory. Furthermore the images must be moved from their individual folders directry under the test_set_images directory.
+3. The pretrained VGG weights are stored in the working directory as vgg16.npy, which can be downloaded from https://github.com/machrisaa/tensorflow-vgg. This is only needed for training models with the pretrained weights as initial values.
+4. The softmax_outputs directory that contains the softmax outputs for the predictions on the test images by the 3 best models is in the working directory. This is only needed in order to reproduce the ENSEBLE result without re-training the models.
+5. The PyDenseCRF python module is installed for the CRF postprocessing. Refer to the next section for instructions.
+
+# PyDenseCRF installation
+Install "Microsoft Visual C++ Build Tools" (http://landinghub.visualstudio.com/visual-cpp-build-tools)
+pip3 install -U cython
+pip3 install git+https://github.com/lucasb-eyer/pydensecrf.git
+
+# Trained models
+Folders with the trained models, predictions, configurations for all of the experiments can be found here: https://polybox.ethz.ch/index.php/s/oDSI4vrfKjjssuU
+
+# Preprocessing
+1. Generate the training and validation datasets
+python3 preprocessing.py
+2. Generate the augmented training and validation datasets
+python3 preprocessing.py --augment
+3. Generate the augmented training and validation datasets with 45 degree rotations
+python3 preprocessing.py --augment --rotate_45
+
+# Training the models
+1. BASELINE-LOG
+python3 baseline_logistic.py
+python3 mask_to_submission.py --predictions_dir predictions_baseline_logistic --submission_filename baseline_logistic_submission.csv
+2. BASELINE-CNN
+python3 baseline_cnn.py
+python3 mask_to_submission.py --predictions_dir predictions_baseline_cnn --submission_filename baseline_cnn_submission.csv
+3. BASELINE-CNN-AUG
+python3 baseline_cnn.py --predictions_dir predictions_baseline_cnn_aug --model_dir model_baseline_cnn_aug --training_dir training_augmented --validation_dir validation_augmented 
+python3 mask_to_submission.py --predictions_dir predictions_baseline_cnn_aug --submission_filename baseline_cnn_aug_submission.csv
+4. BASELINE-CNN-AUG-45
+python3 baseline_cnn.py --predictions_dir predictions_baseline_cnn_aug_45 --model_dir model_baseline_cnn_aug_45 --training_dir training_augmented_45 --validation_dir validation_augmented_45
+python3 mask_to_submission.py --predictions_dir predictions_baseline_cnn_aug_45 --submission_filename baseline_cnn_aug_45_submission.csv
+5. VGG
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg --model_dir model_vgg --training_dir training_augmented --validation_dir validation_augmented --pad_size 0
+python3 mask_to_submission.py --predictions_dir predictions_vgg --submission_filename vgg_submission.csv
+6. VGG-PRETRAINED
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_pretrained --model_dir model_vgg_pretrained --training_dir training_augmented --validation_dir validation_augmented --pad_size 0 --use_pretrained
+python3 mask_to_submission.py --predictions_dir predictions_vgg_pretrained --submission_filename vgg_pretrained_submission.csv
+7. VGG-BATCHNORM
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_batchnorm --model_dir model_vgg_batchnorm --training_dir training_augmented --validation_dir validation_augmented --pad_size 0 --use_pretrained --batchnorm
+python3 mask_to_submission.py --predictions_dir predictions_vgg_batchnorm --submission_filename vgg_batchnorm_submission.csv
+8. VGG-RESIDUAL
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_residual --model_dir model_vgg_residual --training_dir training_augmented --validation_dir validation_augmented --pad_size 0 --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_vgg_residual --submission_filename vgg_residual_submission.csv
+9. EXTENDED-36
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_36 --model_dir model_vgg_extended_36 --training_dir training_augmented --validation_dir validation_augmented --pad_size 10 --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_36 --submission_filename vgg_extended_36_submission.csv
+10. EXTENDED-56
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_56 --model_dir model_vgg_extended_56 --training_dir training_augmented --validation_dir validation_augmented --pad_size 20 --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_56 --submission_filename vgg_extended_56_submission.csv
+11. EXTENDED-76
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_76 --model_dir model_vgg_extended_76 --training_dir training_augmented --validation_dir validation_augmented --pad_size 30 --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_76 --submission_filename vgg_extended_76_submission.csv
+12. EXTENDED-92
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_92 --model_dir model_vgg_extended_92 --training_dir training_augmented --validation_dir validation_augmented --pad_size 38 --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_92 --submission_filename vgg_extended_92_submission.csv
+13. EXTENDED-56-DROP-0.5
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_56_drop_0.5 --model_dir model_vgg_extended_56_drop_0.5 --training_dir training_augmented --validation_dir validation_augmented --pad_size 20 --use_pretrained --batchnorm --residual --dropout 0.5
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_56_drop_0.5 --submission_filename vgg_extended_56_drop_0.5_submission.csv
+14. EXTENDED-56-DROP-0.7
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_56_drop_0.7 --model_dir model_vgg_extended_56_drop_0.7 --training_dir training_augmented --validation_dir validation_augmented --pad_size 20 --use_pretrained --batchnorm --residual --dropout 0.7
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_56_drop_0.7 --submission_filename vgg_extended_56_drop_0.7_submission.csv
+15. EXTENDED-56-DROP-0.9
+python3 cnn_extended_patches.py --predictions_dir predictions_vgg_extended_56_drop_0.9 --model_dir model_vgg_extended_56_drop_0.9 --training_dir training_augmented --validation_dir validation_augmented --pad_size 20 --use_pretrained --batchnorm --residual --dropout 0.9
+python3 mask_to_submission.py --predictions_dir predictions_vgg_extended_56_drop_0.9 --submission_filename vgg_extended_56_drop_0.9_submission.csv
+16. FULLY-CONVOLUTIONAL
+python3 fully_convolutional.py --predictions_dir predictions_fully_convolutional --model_dir model_fully_convolutional --training_dir training_augmented --validation_dir validation_augmented --use_pretrained --batchnorm --residual
+python3 mask_to_submission.py --predictions_dir predictions_fully_convolutional --submission_filename fully_convolutional_submission.csv
+
+# Postprocessing
+Befere running the postprocessing script the a softmax_outputs directory can be optionally filled with softmax outputs from any model. These can be found in the predictions directory for each model as .pkl files. Then all the postprocessing steps are performed with the following command.
+python3 postprocessing.py
+1. ENSEMBLE
+python3 mask_to_submission.py --predictions_dir predictions_ensemble --submission_filename ensemble_submission.csv
+2. CRF
+python3 mask_to_submission.py --predictions_dir predictions_crf --submission_filename crf_submission.csv
+
+# Plots
+The plot used in the report can be generated by running the following command.
+python3 plot_figures.py

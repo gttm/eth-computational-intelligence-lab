@@ -1,0 +1,150 @@
+epoch: 1, step: 1000, loss_training: 4.52173, loss_validation: 0.46508, f1_score: 0.71238, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 2000, loss_training: 0.47060, loss_validation: 0.41416, f1_score: 0.70858, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 3000, loss_training: 0.42885, loss_validation: 0.38904, f1_score: 0.70407, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 4000, loss_training: 0.41144, loss_validation: 0.39714, f1_score: 0.73157, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 5000, loss_training: 0.39961, loss_validation: 0.37234, f1_score: 0.74386, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 6000, loss_training: 0.38696, loss_validation: 0.39821, f1_score: 0.72057, steps_with_no_improvement: 1
+epoch: 1, step: 7000, loss_training: 0.37307, loss_validation: 0.35003, f1_score: 0.70777, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 8000, loss_training: 0.35591, loss_validation: 0.29271, f1_score: 0.79320, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 9000, loss_training: 0.34593, loss_validation: 0.34101, f1_score: 0.70659, steps_with_no_improvement: 1
+epoch: 1, step: 10000, loss_training: 0.33168, loss_validation: 0.30091, f1_score: 0.78035, steps_with_no_improvement: 2
+epoch: 1, step: 11000, loss_training: 0.31703, loss_validation: 0.28150, f1_score: 0.79954, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 12000, loss_training: 0.30414, loss_validation: 0.28809, f1_score: 0.76343, steps_with_no_improvement: 1
+epoch: 1, step: 13000, loss_training: 0.29808, loss_validation: 0.26090, f1_score: 0.79972, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 14000, loss_training: 0.28549, loss_validation: 0.26724, f1_score: 0.81014, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 15000, loss_training: 0.27606, loss_validation: 0.23911, f1_score: 0.81992, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 16000, loss_training: 0.26339, loss_validation: 0.22793, f1_score: 0.83719, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 17000, loss_training: 0.25877, loss_validation: 0.22102, f1_score: 0.79769, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 18000, loss_training: 0.24124, loss_validation: 0.23672, f1_score: 0.79975, steps_with_no_improvement: 1
+epoch: 1, step: 19000, loss_training: 0.23321, loss_validation: 0.20320, f1_score: 0.83569, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 20000, loss_training: 0.22744, loss_validation: 0.20745, f1_score: 0.82553, steps_with_no_improvement: 1
+epoch: 1, step: 21000, loss_training: 0.22474, loss_validation: 0.18930, f1_score: 0.82920, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 22000, loss_training: 0.21195, loss_validation: 0.20427, f1_score: 0.82496, steps_with_no_improvement: 1
+epoch: 1, step: 23000, loss_training: 0.20461, loss_validation: 0.22003, f1_score: 0.79491, steps_with_no_improvement: 2
+epoch: 1, step: 24000, loss_training: 0.21044, loss_validation: 0.19474, f1_score: 0.84311, steps_with_no_improvement: 0, model saved
+epoch: 1, step: 25000, loss_training: 0.19991, loss_validation: 0.19294, f1_score: 0.83086, steps_with_no_improvement: 1
+epoch: 1, step: 26000, loss_training: 0.19386, loss_validation: 0.19115, f1_score: 0.81477, steps_with_no_improvement: 2
+epoch: 1, step: 27000, loss_training: 0.19488, loss_validation: 0.19752, f1_score: 0.83627, steps_with_no_improvement: 3
+epoch: 1, step: 28000, loss_training: 0.18122, loss_validation: 0.17016, f1_score: 0.85774, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 29000, loss_training: 0.17855, loss_validation: 0.16861, f1_score: 0.85167, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 30000, loss_training: 0.17605, loss_validation: 0.18372, f1_score: 0.84573, steps_with_no_improvement: 1
+epoch: 2, step: 31000, loss_training: 0.17390, loss_validation: 0.17046, f1_score: 0.84603, steps_with_no_improvement: 2
+epoch: 2, step: 32000, loss_training: 0.17416, loss_validation: 0.16665, f1_score: 0.86065, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 33000, loss_training: 0.17291, loss_validation: 0.15918, f1_score: 0.85822, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 34000, loss_training: 0.15899, loss_validation: 0.16749, f1_score: 0.84987, steps_with_no_improvement: 1
+epoch: 2, step: 35000, loss_training: 0.16366, loss_validation: 0.18906, f1_score: 0.82605, steps_with_no_improvement: 2
+epoch: 2, step: 36000, loss_training: 0.15762, loss_validation: 0.17888, f1_score: 0.82448, steps_with_no_improvement: 3
+epoch: 2, step: 37000, loss_training: 0.15969, loss_validation: 0.17918, f1_score: 0.86435, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 38000, loss_training: 0.16549, loss_validation: 0.16178, f1_score: 0.85571, steps_with_no_improvement: 1
+epoch: 2, step: 39000, loss_training: 0.15851, loss_validation: 0.15869, f1_score: 0.86158, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 40000, loss_training: 0.14884, loss_validation: 0.16219, f1_score: 0.85282, steps_with_no_improvement: 1
+epoch: 2, step: 41000, loss_training: 0.14655, loss_validation: 0.16522, f1_score: 0.84955, steps_with_no_improvement: 2
+epoch: 2, step: 42000, loss_training: 0.15108, loss_validation: 0.15761, f1_score: 0.86409, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 43000, loss_training: 0.14898, loss_validation: 0.15757, f1_score: 0.85537, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 44000, loss_training: 0.14637, loss_validation: 0.15954, f1_score: 0.86888, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 45000, loss_training: 0.14778, loss_validation: 0.15451, f1_score: 0.85066, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 46000, loss_training: 0.14313, loss_validation: 0.15185, f1_score: 0.86641, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 47000, loss_training: 0.14242, loss_validation: 0.14590, f1_score: 0.87471, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 48000, loss_training: 0.13588, loss_validation: 0.15790, f1_score: 0.85261, steps_with_no_improvement: 1
+epoch: 2, step: 49000, loss_training: 0.13562, loss_validation: 0.16691, f1_score: 0.84335, steps_with_no_improvement: 2
+epoch: 2, step: 50000, loss_training: 0.13450, loss_validation: 0.14014, f1_score: 0.87823, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 51000, loss_training: 0.13654, loss_validation: 0.14984, f1_score: 0.86186, steps_with_no_improvement: 1
+epoch: 2, step: 52000, loss_training: 0.12812, loss_validation: 0.13310, f1_score: 0.87217, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 53000, loss_training: 0.13355, loss_validation: 0.13989, f1_score: 0.88969, steps_with_no_improvement: 0, model saved
+epoch: 2, step: 54000, loss_training: 0.12699, loss_validation: 0.17537, f1_score: 0.82875, steps_with_no_improvement: 1
+epoch: 2, step: 55000, loss_training: 0.12661, loss_validation: 0.14413, f1_score: 0.87773, steps_with_no_improvement: 2
+epoch: 2, step: 56000, loss_training: 0.12564, loss_validation: 0.13760, f1_score: 0.87955, steps_with_no_improvement: 3
+epoch: 3, step: 57000, loss_training: 0.11558, loss_validation: 0.13545, f1_score: 0.89595, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 58000, loss_training: 0.11459, loss_validation: 0.13839, f1_score: 0.88184, steps_with_no_improvement: 1
+epoch: 3, step: 59000, loss_training: 0.11235, loss_validation: 0.13521, f1_score: 0.87543, steps_with_no_improvement: 2
+epoch: 3, step: 60000, loss_training: 0.11638, loss_validation: 0.14311, f1_score: 0.87858, steps_with_no_improvement: 3
+epoch: 3, step: 61000, loss_training: 0.11131, loss_validation: 0.13229, f1_score: 0.88919, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 62000, loss_training: 0.10972, loss_validation: 0.13152, f1_score: 0.88915, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 63000, loss_training: 0.10708, loss_validation: 0.13181, f1_score: 0.88428, steps_with_no_improvement: 1
+epoch: 3, step: 64000, loss_training: 0.10842, loss_validation: 0.13493, f1_score: 0.87625, steps_with_no_improvement: 2
+epoch: 3, step: 65000, loss_training: 0.10533, loss_validation: 0.15216, f1_score: 0.86440, steps_with_no_improvement: 3
+epoch: 3, step: 66000, loss_training: 0.10473, loss_validation: 0.13978, f1_score: 0.87466, steps_with_no_improvement: 4
+epoch: 3, step: 67000, loss_training: 0.11335, loss_validation: 0.13711, f1_score: 0.87837, steps_with_no_improvement: 5
+epoch: 3, step: 68000, loss_training: 0.10059, loss_validation: 0.13385, f1_score: 0.88709, steps_with_no_improvement: 6
+epoch: 3, step: 69000, loss_training: 0.10971, loss_validation: 0.12991, f1_score: 0.88913, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 70000, loss_training: 0.10192, loss_validation: 0.12136, f1_score: 0.90174, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 71000, loss_training: 0.09632, loss_validation: 0.14042, f1_score: 0.87489, steps_with_no_improvement: 1
+epoch: 3, step: 72000, loss_training: 0.10003, loss_validation: 0.12607, f1_score: 0.89502, steps_with_no_improvement: 2
+epoch: 3, step: 73000, loss_training: 0.09992, loss_validation: 0.13311, f1_score: 0.88278, steps_with_no_improvement: 3
+epoch: 3, step: 74000, loss_training: 0.10001, loss_validation: 0.13777, f1_score: 0.88392, steps_with_no_improvement: 4
+epoch: 3, step: 75000, loss_training: 0.09907, loss_validation: 0.13941, f1_score: 0.87823, steps_with_no_improvement: 5
+epoch: 3, step: 76000, loss_training: 0.10022, loss_validation: 0.13823, f1_score: 0.87451, steps_with_no_improvement: 6
+epoch: 3, step: 77000, loss_training: 0.09516, loss_validation: 0.12020, f1_score: 0.89763, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 78000, loss_training: 0.09974, loss_validation: 0.12441, f1_score: 0.88563, steps_with_no_improvement: 1
+epoch: 3, step: 79000, loss_training: 0.09923, loss_validation: 0.12119, f1_score: 0.89555, steps_with_no_improvement: 2
+epoch: 3, step: 80000, loss_training: 0.10070, loss_validation: 0.12229, f1_score: 0.88601, steps_with_no_improvement: 3
+epoch: 3, step: 81000, loss_training: 0.09036, loss_validation: 0.11413, f1_score: 0.89947, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 82000, loss_training: 0.09871, loss_validation: 0.11364, f1_score: 0.88827, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 83000, loss_training: 0.09073, loss_validation: 0.12254, f1_score: 0.90375, steps_with_no_improvement: 0, model saved
+epoch: 3, step: 84000, loss_training: 0.09180, loss_validation: 0.13278, f1_score: 0.87403, steps_with_no_improvement: 1
+epoch: 4, step: 85000, loss_training: 0.08016, loss_validation: 0.12466, f1_score: 0.88582, steps_with_no_improvement: 2
+epoch: 4, step: 86000, loss_training: 0.07910, loss_validation: 0.11768, f1_score: 0.90108, steps_with_no_improvement: 3
+epoch: 4, step: 87000, loss_training: 0.07663, loss_validation: 0.12709, f1_score: 0.89529, steps_with_no_improvement: 4
+epoch: 4, step: 88000, loss_training: 0.07400, loss_validation: 0.12422, f1_score: 0.90954, steps_with_no_improvement: 0, model saved
+epoch: 4, step: 89000, loss_training: 0.07998, loss_validation: 0.12720, f1_score: 0.89081, steps_with_no_improvement: 1
+epoch: 4, step: 90000, loss_training: 0.07333, loss_validation: 0.12760, f1_score: 0.89916, steps_with_no_improvement: 2
+epoch: 4, step: 91000, loss_training: 0.08074, loss_validation: 0.11161, f1_score: 0.91443, steps_with_no_improvement: 0, model saved
+epoch: 4, step: 92000, loss_training: 0.07214, loss_validation: 0.11725, f1_score: 0.89766, steps_with_no_improvement: 1
+epoch: 4, step: 93000, loss_training: 0.07896, loss_validation: 0.12052, f1_score: 0.90856, steps_with_no_improvement: 2
+epoch: 4, step: 94000, loss_training: 0.07696, loss_validation: 0.12996, f1_score: 0.90997, steps_with_no_improvement: 3
+epoch: 4, step: 95000, loss_training: 0.07482, loss_validation: 0.14782, f1_score: 0.86616, steps_with_no_improvement: 4
+epoch: 4, step: 96000, loss_training: 0.07485, loss_validation: 0.10792, f1_score: 0.91472, steps_with_no_improvement: 0, model saved
+epoch: 4, step: 97000, loss_training: 0.07768, loss_validation: 0.14431, f1_score: 0.87537, steps_with_no_improvement: 1
+epoch: 4, step: 98000, loss_training: 0.07707, loss_validation: 0.10973, f1_score: 0.90468, steps_with_no_improvement: 2
+epoch: 4, step: 99000, loss_training: 0.07121, loss_validation: 0.13155, f1_score: 0.90350, steps_with_no_improvement: 3
+epoch: 4, step: 100000, loss_training: 0.07117, loss_validation: 0.11821, f1_score: 0.91022, steps_with_no_improvement: 4
+epoch: 4, step: 101000, loss_training: 0.07461, loss_validation: 0.11442, f1_score: 0.91319, steps_with_no_improvement: 5
+epoch: 4, step: 102000, loss_training: 0.07956, loss_validation: 0.11428, f1_score: 0.88782, steps_with_no_improvement: 6
+epoch: 4, step: 103000, loss_training: 0.07475, loss_validation: 0.10645, f1_score: 0.90811, steps_with_no_improvement: 0, model saved
+epoch: 4, step: 104000, loss_training: 0.07268, loss_validation: 0.13003, f1_score: 0.88475, steps_with_no_improvement: 1
+epoch: 4, step: 105000, loss_training: 0.07265, loss_validation: 0.12576, f1_score: 0.89711, steps_with_no_improvement: 2
+epoch: 4, step: 106000, loss_training: 0.07053, loss_validation: 0.11659, f1_score: 0.90875, steps_with_no_improvement: 3
+epoch: 4, step: 107000, loss_training: 0.07255, loss_validation: 0.11595, f1_score: 0.89916, steps_with_no_improvement: 4
+epoch: 4, step: 108000, loss_training: 0.06736, loss_validation: 0.12132, f1_score: 0.88986, steps_with_no_improvement: 5
+epoch: 4, step: 109000, loss_training: 0.07142, loss_validation: 0.10608, f1_score: 0.90322, steps_with_no_improvement: 0, model saved
+epoch: 4, step: 110000, loss_training: 0.06666, loss_validation: 0.13731, f1_score: 0.88754, steps_with_no_improvement: 1
+epoch: 4, step: 111000, loss_training: 0.07079, loss_validation: 0.15940, f1_score: 0.86672, steps_with_no_improvement: 2
+epoch: 4, step: 112000, loss_training: 0.07028, loss_validation: 0.18166, f1_score: 0.85529, steps_with_no_improvement: 3
+epoch: 5, step: 113000, loss_training: 0.06399, loss_validation: 0.12308, f1_score: 0.90242, steps_with_no_improvement: 4
+epoch: 5, step: 114000, loss_training: 0.05391, loss_validation: 0.11488, f1_score: 0.90245, steps_with_no_improvement: 5
+epoch: 5, step: 115000, loss_training: 0.05296, loss_validation: 0.10883, f1_score: 0.91588, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 116000, loss_training: 0.05781, loss_validation: 0.12209, f1_score: 0.90737, steps_with_no_improvement: 1
+epoch: 5, step: 117000, loss_training: 0.05464, loss_validation: 0.10851, f1_score: 0.91057, steps_with_no_improvement: 2
+epoch: 5, step: 118000, loss_training: 0.05894, loss_validation: 0.11099, f1_score: 0.91668, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 119000, loss_training: 0.05748, loss_validation: 0.11683, f1_score: 0.91790, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 120000, loss_training: 0.06088, loss_validation: 0.11897, f1_score: 0.91367, steps_with_no_improvement: 1
+epoch: 5, step: 121000, loss_training: 0.05464, loss_validation: 0.11657, f1_score: 0.90929, steps_with_no_improvement: 2
+epoch: 5, step: 122000, loss_training: 0.05039, loss_validation: 0.10615, f1_score: 0.91564, steps_with_no_improvement: 3
+epoch: 5, step: 123000, loss_training: 0.05902, loss_validation: 0.11709, f1_score: 0.91316, steps_with_no_improvement: 4
+epoch: 5, step: 124000, loss_training: 0.05898, loss_validation: 0.10864, f1_score: 0.91497, steps_with_no_improvement: 5
+epoch: 5, step: 125000, loss_training: 0.05993, loss_validation: 0.11379, f1_score: 0.91440, steps_with_no_improvement: 6
+epoch: 5, step: 126000, loss_training: 0.05203, loss_validation: 0.10918, f1_score: 0.91962, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 127000, loss_training: 0.05910, loss_validation: 0.11564, f1_score: 0.90540, steps_with_no_improvement: 1
+epoch: 5, step: 128000, loss_training: 0.05472, loss_validation: 0.11042, f1_score: 0.91985, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 129000, loss_training: 0.05759, loss_validation: 0.11030, f1_score: 0.92139, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 130000, loss_training: 0.05466, loss_validation: 0.10337, f1_score: 0.91596, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 131000, loss_training: 0.05218, loss_validation: 0.10505, f1_score: 0.90931, steps_with_no_improvement: 1
+epoch: 5, step: 132000, loss_training: 0.05174, loss_validation: 0.12889, f1_score: 0.89843, steps_with_no_improvement: 2
+epoch: 5, step: 133000, loss_training: 0.05741, loss_validation: 0.11024, f1_score: 0.91688, steps_with_no_improvement: 3
+epoch: 5, step: 134000, loss_training: 0.05646, loss_validation: 0.10774, f1_score: 0.90150, steps_with_no_improvement: 4
+epoch: 5, step: 135000, loss_training: 0.04993, loss_validation: 0.10645, f1_score: 0.91171, steps_with_no_improvement: 5
+epoch: 5, step: 136000, loss_training: 0.05065, loss_validation: 0.11157, f1_score: 0.90785, steps_with_no_improvement: 6
+epoch: 5, step: 137000, loss_training: 0.05420, loss_validation: 0.09814, f1_score: 0.92981, steps_with_no_improvement: 0, model saved
+epoch: 5, step: 138000, loss_training: 0.05106, loss_validation: 0.13436, f1_score: 0.89573, steps_with_no_improvement: 1
+epoch: 5, step: 139000, loss_training: 0.05504, loss_validation: 0.12298, f1_score: 0.90571, steps_with_no_improvement: 2
+epoch: 5, step: 140000, loss_training: 0.05651, loss_validation: 0.09659, f1_score: 0.91976, steps_with_no_improvement: 0, model saved
+epoch: 6, step: 141000, loss_training: 0.04933, loss_validation: 0.10462, f1_score: 0.91475, steps_with_no_improvement: 1
+epoch: 6, step: 142000, loss_training: 0.04074, loss_validation: 0.13092, f1_score: 0.90569, steps_with_no_improvement: 2
+epoch: 6, step: 143000, loss_training: 0.04603, loss_validation: 0.13126, f1_score: 0.87998, steps_with_no_improvement: 3
+epoch: 6, step: 144000, loss_training: 0.04373, loss_validation: 0.12106, f1_score: 0.90692, steps_with_no_improvement: 4
+epoch: 6, step: 145000, loss_training: 0.04218, loss_validation: 0.10460, f1_score: 0.90138, steps_with_no_improvement: 5
+epoch: 6, step: 146000, loss_training: 0.04287, loss_validation: 0.11152, f1_score: 0.90318, steps_with_no_improvement: 6
+epoch: 6, step: 147000, loss_training: 0.04735, loss_validation: 0.11604, f1_score: 0.91679, steps_with_no_improvement: 7
+epoch: 6, step: 148000, loss_training: 0.04817, loss_validation: 0.12340, f1_score: 0.88117, steps_with_no_improvement: 8
+epoch: 6, step: 149000, loss_training: 0.04662, loss_validation: 0.10747, f1_score: 0.92035, steps_with_no_improvement: 9
+epoch: 6, step: 150000, loss_training: 0.04352, loss_validation: 0.12580, f1_score: 0.91433, steps_with_no_improvement: 10

@@ -1,0 +1,12 @@
+*.zip
+__pycache__
+Thumbs.db
+.ipynb_checkpoints
+
+training_augmented
+validation_augmented
+
+predictions*
+model*
+
+vgg16.npy
